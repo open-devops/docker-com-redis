@@ -9,8 +9,8 @@ fi
 
 # allow the container to be started with `--user`
 if [ "$1" = 'redis-server' -a "$(id -u)" = '0' ]; then
-	chown -R redis .
-	exec su-exec redis "$0" "$@"
+	chown -R pladimn .
+	exec su-exec pladmin "$0" "$@"
 fi
 
 if [ "$1" = 'redis-server' ]; then
