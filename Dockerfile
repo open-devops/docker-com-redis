@@ -1,7 +1,7 @@
 FROM alpine:3.4
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
-RUN addgroup -S redis && adduser -S -G redis redis
+RUN addgroup -S admin && adduser -S -G admin pladmin
 
 # grab su-exec for easy step-down from root
 RUN apk add --no-cache 'su-exec>=0.2'
@@ -28,7 +28,7 @@ RUN set -x \
 	&& rm -r /usr/src/redis \
 	&& apk del .build-deps
 
-RUN mkdir /data && chown redis:redis /data
+RUN mkdir /data && chown admin:pladmin /data
 VOLUME /data
 WORKDIR /data
 
