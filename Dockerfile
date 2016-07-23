@@ -28,7 +28,7 @@ RUN set -x \
 	&& rm -r /usr/src/redis \
 	&& apk del .build-deps
 
-RUN mkdir /data && chown admin:pladmin /data
+RUN mkdir /data && chown pladmin:admin /data
 VOLUME /data
 WORKDIR /data
 
