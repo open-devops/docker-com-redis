@@ -5,18 +5,18 @@ Redis is an advanced key-value cache and store. It is often referred to as a dat
 
 # TLDR
 ```
-docker run --name devops-redis open-devops/redis
+docker run --name devops-redis devopsopen/docker-com-redis
 ```
 
 # Docker Compose
 ```
 devops-redis:
-  image: open-devops/redis
+  image: devopsopen/docker-com-redis
 ```
 
 # Get this image
 ```
-docker pull open-devops/redis
+docker pull devopsopen/docker-com-redis
 ```
 
 
