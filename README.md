@@ -1,3 +1,5 @@
+[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?maxAge=2592000)](https://hub.docker.com/r/devopsopen/docker-com-redis/)
+
 # Redis
 In-memory Data Structure Store for Open DevOps Pipeline
 
