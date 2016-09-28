@@ -1,0 +1,3 @@
+#  In-memory Data Structure Store for Open DevOps Pipeline
+redis:
+  image:  devopsopen/docker-com-redis

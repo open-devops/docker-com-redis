@@ -1,0 +1,8 @@
+name:  OpenDevOps-Redis
+description: |
+   In-memory Data Structure Store for Open DevOps Pipeline
+version:  1.0.0
+category:  COM
+maintainer:  open.devops
+license:  Apache 2
+projectURL: https://github.com/ open-devops/docker-com-redis
